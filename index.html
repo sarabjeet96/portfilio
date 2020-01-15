@@ -297,66 +297,79 @@ ul.timeline > li:before {
           </div>
       </div>
   </div>
-      <div class="container" id="contact">
-        <center>
-        <p><span style="font-size: 25px;"><Br><Br><br><b>Get in Touch</b></span></p>
-        </center>
-        <div class="ui horizontal divider"><p style="font-size: 28px;">*</p></div>
-        </div>
-        <div class="ui grid container">
+  <div class="container" id="contact">
+    <center>
+    <p><span style="font-size: 25px;"><Br><Br><br><b>Get in Touch</b></span></p>
+    </center>
+    <div class="ui horizontal divider"><p style="font-size: 28px;">*</p></div>
+    </div>
+    <div id="contact" class="paddsection">
+      <div class="container">
+        <div class="contact-block1">
           <div class="row">
-            <div class="five wide column">
-              <br>
+  
+            <div class="col-lg-6">
+                <br>
+                <span class="text-center">
+                 <center><i class="material-icons">
+                    phone_android
+                  </i></center>
+                <p><b>Contact</b></p>
+                <p>+91 8755659820</p>              
+              </span><br>
               <span class="text-center">
-               <center><i class="material-icons">
-                  phone_android
-                </i></center>
-              <p><b>Contact</b></p>
-              <p>+91 8755659820</p>              
-            </span><br>
-            <span class="text-center">
-              <center><i class="material-icons">
-                mail
-              </i>
-            </center>
-              <p><b>Mail</b></p>
-              <p>sarabjeetssomnal@gmail.com</p>              
-            </span>
+                <center><i class="material-icons">
+                  mail
+                </i>
+              </center>
+                <p><b>Mail</b></p>
+                <p>sarabjeetssomnal@gmail.com</p>              
+              </span>
             </div>
-            <div class="ten wide column">
-              <div style="float: right;">
-              <div class="ui form">
-                <div class="fields">
-                  <div class="field">
-                    <label>Name</label>
-                    <input type="text" placeholder="Your Name...">
+  
+            <div class="col-lg-6">
+              <form action="" method="post" role="form" class="contactForm">
+                <div class="row">
+                <div class="col-lg-6">
+                    <div class="form-group contact-block1">
+                      <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                      <div class="validation"></div>
+                    </div>
                   </div>
-                  <div class="field">
-                    <label>Email Address</label>
-                    <input type="text" placeholder="Your Email...">
+  
+                  <div class="col-lg-6">
+                    <div class="form-group">
+                      <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                      <div class="validation"></div>
+                    </div>
                   </div>
+  
+                  <div class="col-lg-12">
+                    <div class="form-group">
+                      <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                      <div class="validation"></div>
+                    </div>
+                  </div>
+  
+                  <div class="col-lg-12">
+                    <div class="form-group">
+                      <textarea class="form-control" name="message" rows="12" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                      <div class="validation"></div>
+                    </div>
+                    <button class="btn btn-outline-success" type="submit" style="float: right;">Submit</button>
+                  </div>      
                 </div>
-              </div>
-              <div class="ui form">
-                  <div class="field">
-                    <label>Subject</label>
-                    <input type="text" placeholder="Your Subject...">
-                  </div>
-            </div>
-            <div class="ui form">
-              <div class="field">
-                <label>Message</label>
-                <textarea placeholder="Your Message..."></textarea> 
-              </div>
-              <button class="btn btn-outline-success" type="submit" style="float: right;">Submit</button>
+              </form>
+              <br>
             </div>
           </div>
         </div>
       </div>
     </div>
-  <br>
-        <div class="container-fluid pt-3 bg-dark text-white">
-          <h5 class="text-center"><b>2020 <i class="far fa-copyright"></i> Sarabjeet</b></h5>
-        </div>  
+  </div>
+<br>
+    <div class="container-fluid pt-3 bg-dark text-white">
+      <h5 class="text-center"><b>2020 <i class="far fa-copyright"></i> Sarabjeet</b></h5>
+    </div>  
 </body>
 </html>
